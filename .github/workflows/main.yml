@@ -51,3 +51,7 @@ jobs:
       # Run all tests with verbose flag
       - name: Run all tests
         run: pytest -v
+        
+      # Build & Test Complete
+      - name: Build & Test Complete
+        run: echo Build & Test Complete!
